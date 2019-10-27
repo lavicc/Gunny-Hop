@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
-    //public GameObject bulletPrefab;
     public GameObject bulletSpawn;
 
     private void Update()
