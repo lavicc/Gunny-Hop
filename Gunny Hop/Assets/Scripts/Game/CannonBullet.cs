@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CannonBullet : MonoBehaviour
 {
-    [SerializeField] private float speed;
-    [SerializeField] private float bulletDuration;
+    [SerializeField] private float speed = 20.0f;
+    [SerializeField] private float bulletDuration = 4.0f;
     private float bulletDeleteTimer;
 
     private void OnEnable()
